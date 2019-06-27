@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": [
+    "fbd.st"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://fueledbydreams.com/$1"
+      }
+    }
+  ]
+}
